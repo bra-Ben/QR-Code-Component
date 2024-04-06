@@ -56,7 +56,7 @@ I want to continue to learn how build a responsive site by using MObile-first wo
 - Website - [Benjamin Darko Appiagyei](https://www.linkedin.com/in/bendarko/)
 - Frontend Mentor - [@bra-Ben](https://www.frontendmentor.io/profile/bra-Ben)
 - Twitter - [@bnjdarko](https://www.twitter.com/bnjdarko)
-inks you'd like to share.**
+
 
 ## Acknowledgments
 Great appreciation goes out to the brain or brains behind Frontend Mentors. Without you guys, the dreams of thousands of people around the world of becoming a Web Developers won't be possible. God bless you. 
