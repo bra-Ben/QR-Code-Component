@@ -5,11 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend - QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+
+    html {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 30px;
+      width: 100%;
+      max-width: 320px;
+      padding: 15px;
+    }
+
+    .img-container img {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .text-container {
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .text-container p {
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+
+    }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -17,10 +58,13 @@
 <body>
 
   <div class="container">
+
     <div class="qr-container">
+
       <div class="inner-containers img-container">
         <img src="./images/image-qr-code.png" alt="QR Code image">
       </div>
+
       <div class="inner-containers text-container">
         <h3>
           Improve your front-end skills by building projects
@@ -38,7 +82,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/bra-Ben" target="_blank">bra-Ben</a>.
   </div>
 </body>
 </html>
